@@ -4,7 +4,7 @@ from tkinter import messagebox, simpledialog #Importar ventanas de mensaje
 
 #Clases de cuenta con distintos tipos
 class Cuenta: #Clase-objeto para una cuenta bancaria
-    def __init__(self, titular, numero_cuenta, saldo_inicial=0):Método para configurar y activar valores
+    def __init__(self, titular, numero_cuenta, saldo_inicial=0): #Método para configurar y activar valores
         self.titular = titular #Usuario titular de la cuenta
         self.numero_cuenta = numero_cuenta #Número de cuenta
         self.saldo = saldo_inicial #Saldo inicial de la cuenta
